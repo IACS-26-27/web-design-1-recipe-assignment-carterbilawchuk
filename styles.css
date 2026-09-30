@@ -2,5 +2,25 @@
 h1 {
   /* Demo style -- remove me and write your own */
   font-size: 48px;
-  color: purple;
+  color: rgb(0, 0, 0);
+  font-family: Roboto, Helvetica, sans-serif;
+  padding-inline: 50px;
+  padding-block: 50px;
+  margin-inline: 100px;
+  margin-block: 100px;
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+  background-color: rgb(240, 245, 255);
+}
+
+div {
+  font-size: 24px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-inline: 150px;
+  padding-block: 25px;
+  padding-inline: 25px;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50px;
+  color: bisque;
+
 }
