@@ -1,26 +1,46 @@
 /* Your styles go here! */
 h1 {
   /* Demo style -- remove me and write your own */
-  font-size: 48px;
-  color: rgb(0, 0, 0);
+  font-size: 32px;
+  color: bisque;
   font-family: Roboto, Helvetica, sans-serif;
   padding-inline: 50px;
   padding-block: 50px;
   margin-inline: 100px;
-  margin-block: 100px;
+  margin-block: 50px;
   box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
   border-radius: 50px;
-  background-color: rgb(240, 245, 255);
+  background-color: #bf9b6f;
 }
 
 div {
-  font-size: 24px;
+  font-size: 18px;
   font-family: 'Courier New', Courier, monospace;
-  margin-inline: 150px;
+  margin-inline: 50px;
   padding-block: 25px;
   padding-inline: 25px;
   background-color: rgb(0, 0, 0);
   border-radius: 50px;
   color: bisque;
 
+}
+
+h2 {
+  color: bisque;
+  font-family: Roboto, Helvetica, sans-serif;
+  margin-inline: 25px;
+  margin-block: 25px;
+  font-size: 24px;
+}
+
+li {
+  text-align: left;
+  margin-inline: 80px;
+}
+
+::selection {
+  background-color: bisque;
+  /* Changes the highlight background */
+  color: #bf9b6f;
+  /* Changes the text color inside the highlight */
 }
