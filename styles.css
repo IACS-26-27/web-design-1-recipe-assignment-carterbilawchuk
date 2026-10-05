@@ -1,8 +1,15 @@
-/* Your styles go here! */
+:root {
+  --main-font-color: #ffe4c4;
+  --black: #151824;
+}
+
+body {
+  background-color: #f0f1f5;
+}
+
 h1 {
-  /* Demo style -- remove me and write your own */
   font-size: 32px;
-  color: bisque;
+  color: var(--main-font-color);
   font-family: Roboto, Helvetica, sans-serif;
   padding-inline: 50px;
   padding-block: 50px;
@@ -11,6 +18,9 @@ h1 {
   box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
   border-radius: 50px;
   background-color: #bf9b6f;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 div {
@@ -19,28 +29,65 @@ div {
   margin-inline: 100px;
   padding-block: 25px;
   padding-inline: 25px;
-  background-color: rgb(0, 0, 0);
+  background-color: var(--black);
   border-radius: 50px;
-  color: bisque;
-
+  color: var(--main-font-color);
 }
 
 h2 {
-  color: bisque;
+  color: var(--main-font-color);
   font-family: Roboto, Helvetica, sans-serif;
   margin-inline: 25px;
   margin-block: 25px;
   font-size: 24px;
 }
 
+h3 {
+  color: var(--main-font-color);
+  font-family: Roboto, Helvetica, sans-serif;
+  margin-block: 25px;
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
 li {
   text-align: left;
   margin-inline: 25px;
+  font-variant: small-caps;
+  font-weight: 600;
+  padding-block: 10px;
+}
+
+li::before {
+  content: "📌 ";
 }
 
 ::selection {
-  background-color: bisque;
-  /* Changes the highlight background */
+  background-color: var(--main-font-color);
   color: #bf9b6f;
-  /* Changes the text color inside the highlight */
+}
+
+.info-box {
+  background-color: white;
+  outline: 10px solid #bf9b6f;
+  color: var(--black);
+}
+
+.secondary-header {
+  font-size: 24px;
+  margin-top: 100px;
+  margin-inline: 200px;
+  letter-spacing: 2.5px;
+  text-align: center;
+}
+
+.instructions {
+  margin-inline: 300px;
+  padding-inline: 50px;
+  padding-block: 25px;
+  font-weight: 400;
+  line-height: 2;
 }
