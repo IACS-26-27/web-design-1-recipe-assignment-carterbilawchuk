@@ -3,6 +3,31 @@
   --black: #151824;
 }
 
+.limelight-regular {
+  font-family: "Limelight", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inria-serif-light {
+  font-family: "Inria Serif", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.inria-serif-regular {
+  font-family: "Inria Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inria-serif-bold {
+  font-family: "Inria Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
 body {
   background-color: #f0f1f5;
 }
@@ -10,13 +35,13 @@ body {
 h1 {
   font-size: 32px;
   color: var(--main-font-color);
-  font-family: Roboto, Helvetica, sans-serif;
+  font-family: "Limelight", sans-serif;
   padding-inline: 50px;
   padding-block: 50px;
   margin-inline: 100px;
   margin-block: 50px;
   box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
-  border-radius: 50px;
+  border-radius: 0px;
   background-color: #bf9b6f;
   letter-spacing: 5px;
   text-transform: uppercase;
@@ -25,18 +50,18 @@ h1 {
 
 div {
   font-size: 18px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Inria Serif", serif;
   margin-inline: 100px;
   padding-block: 25px;
   padding-inline: 25px;
   background-color: var(--black);
-  border-radius: 50px;
+  border-radius: 0px;
   color: var(--main-font-color);
 }
 
 h2 {
   color: var(--main-font-color);
-  font-family: Roboto, Helvetica, sans-serif;
+  font-family: "Limelight", serif;
   margin-inline: 25px;
   margin-block: 25px;
   font-size: 24px;
@@ -44,7 +69,7 @@ h2 {
 
 h3 {
   color: var(--main-font-color);
-  font-family: Roboto, Helvetica, sans-serif;
+  font-family: "Limelight", serif;
   margin-block: 25px;
   font-size: 20px;
 }
@@ -56,9 +81,10 @@ ul {
 li {
   text-align: left;
   margin-inline: 25px;
-  font-variant: small-caps;
-  font-weight: 600;
+  /*font-variant: small-caps;*/
+  font-weight: 800;
   padding-block: 10px;
+  letter-spacing: 1px;
 }
 
 li::before {
