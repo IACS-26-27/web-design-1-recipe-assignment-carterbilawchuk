@@ -1,6 +1,152 @@
-/* Your styles go here! */
+:root {
+  --main-font-color: #ffe4c4;
+  --black: #151824;
+}
+
+.limelight-regular {
+  font-family: "Limelight", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inria-serif-light {
+  font-family: "Inria Serif", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.inria-serif-regular {
+  font-family: "Inria Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inria-serif-bold {
+  font-family: "Inria Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+body {
+  background-color: #f0f1f5;
+}
+
 h1 {
-  /* Demo style -- remove me and write your own */
-  font-size: 48px;
-  color: purple;
+  font-size: 32px;
+  color: var(--main-font-color);
+  font-family: "Limelight", sans-serif;
+  padding-inline: 50px;
+  padding-block: 50px;
+  margin-inline: 100px;
+  margin-block: 50px;
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 0px;
+  background-color: #bf9b6f;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+div {
+  font-size: 18px;
+  font-family: "Inria Serif", serif;
+  margin-inline: 100px;
+  padding-block: 25px;
+  padding-inline: 25px;
+  background-color: var(--black);
+  border-radius: 0px;
+  color: var(--main-font-color);
+}
+
+h2 {
+  color: var(--main-font-color);
+  font-family: "Limelight", serif;
+  margin-inline: 25px;
+  margin-block: 25px;
+  font-size: 24px;
+}
+
+h3 {
+  color: var(--main-font-color);
+  font-family: "Limelight", serif;
+  margin-block: 25px;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  text-align: left;
+  margin-inline: 25px;
+  /*font-variant: small-caps;*/
+  font-weight: 800;
+  padding-block: 10px;
+  letter-spacing: 1px;
+}
+
+li::before {
+  content: "📌 ";
+}
+
+::selection {
+  background-color: var(--main-font-color);
+  color: #bf9b6f;
+}
+
+.info-box {
+  background-color: white;
+  outline: 10px solid #bf9b6f;
+  color: var(--black);
+}
+
+.secondary-header {
+  font-size: 24px;
+  margin-top: 100px;
+  margin-inline: 200px;
+  letter-spacing: 2.5px;
+  text-align: center;
+}
+
+.instructions {
+  margin-inline: 200px;
+  padding-inline: 50px;
+  padding-block: 25px;
+  font-weight: 400;
+  line-height: 2;
+}
+
+a:link {
+  color: #7597dc;
+}
+
+a:visited {
+  color: #a774cc;
+}
+
+a:hover {
+  background-color: var(--main-font-color);
+  color: #bf9b6f;
+}
+
+a:active {
+  color: white;
+  background-color: var(--main-font-color);
+}
+
+.inline-image {
+  height: 1em;
+  width: auto;
+
+  vertical-align: middle;
+
+  position: relative;
+  top: -0.1em;
+
+  margin-inline: 0.5em;
+
+  filter: invert(100%);
 }
