@@ -72,6 +72,7 @@ h3 {
   font-family: "Limelight", serif;
   margin-block: 25px;
   font-size: 20px;
+  text-transform: capitalize;
 }
 
 ul {
@@ -111,7 +112,7 @@ li::before {
 }
 
 .instructions {
-  margin-inline: 300px;
+  margin-inline: 200px;
   padding-inline: 50px;
   padding-block: 25px;
   font-weight: 400;
