@@ -118,3 +118,21 @@ li::before {
   font-weight: 400;
   line-height: 2;
 }
+
+a:link {
+  color: #7597dc;
+}
+
+a:visited {
+  color: #a774cc;
+}
+
+a:hover {
+  background-color: var(--main-font-color);
+  color: #bf9b6f;
+}
+
+a:active {
+  color: white;
+  background-color: var(--main-font-color);
+}
